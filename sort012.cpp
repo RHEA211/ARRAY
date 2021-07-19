@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
-void sort012(int* arr, int n)
+void sort012(int arr[], int n)
 {
     
     int count0 = 0, count1 = 0, count2 = 0;
@@ -29,7 +29,7 @@ void sort012(int* arr, int n)
     return;
 }
  
-void printArray(int* arr, int n)
+void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
@@ -40,7 +40,7 @@ void printArray(int* arr, int n)
 
    int main()
 {
-    int n,i,k;
+    int n,i;
     cin>>n;
     int arr[n];
     cout<<"enter array elements- \n";
@@ -54,7 +54,7 @@ void printArray(int* arr, int n)
     return 0;
 
 
-    return 0;
+  
 
 }
    
